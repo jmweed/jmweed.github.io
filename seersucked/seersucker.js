@@ -9,7 +9,7 @@ context.fillStyle = "#000000";
 context.fillRect(0,0,myWidth,myHeight);
 var stripeCounter = 0
 var stripeNumber = 100
-var stripeWidth = 20
+var stripeWidth = 25
 var squareSize = stripeWidth / 5
 var color = "#b2b2ff"
 var sugarRail = stripeWidth
