@@ -1,18 +1,88 @@
-h1 {
-	color: ForestGreen;
-	font-family: garamond;
+body {
+	margin:0;
 }
 
-h2 {
-	color: ForestGreen;
-	font-family: garamond;
+.topMenu {
+	top: 0;
+	align-content: center;
+	background-color: white;
+	margin: 0 auto;
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 20px;
+
 }
 
-h3 {
-	color: ForestGreen;
-	font-family: garamond;
+.topMenu lk {
+	color: black;
+	text-align: center;
+	padding: 20px 20px;
+	padding-top: 20px;
+	font-family: "lucida";
+	font-size: 40px;
+	text-decoration: bold;
+	top: 50%;
+	left: 50%;
+	cursor: pointer;
 }
 
-p {
-	font-family: garamond;
+.topMenu current {
+	color: white;
+	text-align: center;
+	padding: 20px 20px;
+	padding-top: 20px;
+	font-family: "lucida";
+	font-size: 40px;
+	text-decoration: bold;
+	top: 50%;
+	left: 50%;
+	cursor: pointer;
+	background-color: black;
 }
+
+
+.topMenu lk:hover {
+	color: white;
+	background-color: black;
+	font-family: "lucida";
+	font-size: 40px;
+}
+
+a {
+	color: none;
+	text-decoration: none;
+	cursor: none;
+}
+
+.contentRow {
+	text-align: center;
+	padding: 40px
+}
+
+.contentRow block{
+	border-width: 5;
+	border-color: black;
+	color: black;
+	text-align: center;
+	padding: 50px 50px;
+	padding-top: 50px;
+	font-family: "lucida";
+	font-size: 40px;
+	text-decoration: bold;
+	top: 50%;
+	left: 50%;
+	cursor: pointer;
+}
+
+.contentRow block:hover{
+	color: white;
+	text-align: center;
+	font-family: "lucida";
+	font-size: 40px;
+	text-decoration: bold;
+	top: 50%;
+	left: 50%;
+	cursor: pointer;
+	background-color: black;
+}
+

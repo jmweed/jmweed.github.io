@@ -1,0 +1,36 @@
+<html>
+<head>
+	<script src="cibus.js"></script>
+	<title>CIBUS</title>
+</head>
+<body>
+	<h1>CIBUS</h1>
+	<p id="line1"></p>
+	<p id="line2"></p>
+	<p id="line3"></p>
+	<p id="line4"></p>
+	<form id="form">
+		<label for="name">Name</label><br>
+		<input id="name"></input><br><br>
+		<label for="sex">Sex</label><br>
+		<input id="sex"></input><br><br>
+		<label for="age">Age</label><br>
+		<input id="age"></input><br><br>
+		<label for="height">Height (inches)</label><br>
+		<input id="height"></input><br><br>
+		<label for="weight">Weight (lbs)</label><br>
+		<input id="weight"></input><br><br>
+		<label for="activity">Activity (scale of 1-4, with 4 being super active)</label><br>
+		<input id="activity"></input><br><br>
+		<label for="fatPercent">Body Fat Percentage (enter as decimal, e.g., "0.15" for 15%</label><br>
+		<input id="fatPercent"></input><br><br>
+		<label for="protRat">How many grams of protein do you want per lb of lean body mass?</label><br>
+		<input id="protRat"></input><br><br>
+		<label for="carbRat">What percentage of your caloric intake do you want to come from carbohydrates?</label><br>
+		<input id="carbRat"></input><br><br>
+		<label for="enerProt">How much of your protein intake do you want to count towards your daily caloric needs? (enter as decimal, e.g., "0.8" for 80%)</label><br>
+		<input id="enerProt"></input><br><br>
+		<button onsubmit="formSubmitted()">DISPLAY WEEKLY MACROS</button>
+	</form>
+</body>
+</html>
