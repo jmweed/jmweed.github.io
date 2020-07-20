@@ -4,27 +4,27 @@
 	<link rel="stylesheet" href="../style.css">
 </head>
 <body>
-<main>
-	<div class="topMenu" id="topMenu">
-<!-- 		<button onclick="stop()">stop</button> -->
-		<a href="../"><lk>HOME</lk></a>
-		<a href="../writing/"><lk>WRITING</lk></a>
-		<a href="../health/"><lk>HEALTH</lk></a>
-		<a href="./"><current>CODE</current></a>
-		<a href="../about/"><lk>ABOUT</lk></a>
+<main style="background-image: url(./mandset.png); background-position: center; height:100%">
+	<div class="contentRow">
+		<a href="../"><block>Home</block></a>
 	</div>
-	<canvas id="canvas"></canvas>
-	<script>
-		var canvas = document.getElementById("canvas");
-		var context = canvas.getContext("2d");
-		var myWidth = window.innerWidth;
-		var myHeight = window.innerHeight - 60;
-		context.canvas.width = myWidth;
-		context.canvas.height = myHeight;
-		context.fillStyle = "white";
-		context.fillRect(0,0,myWidth,myHeight);
-	</script>
-<!-- 	<script src="recursive.js"></script> -->
+	<div class="contentRow">
+		<div class="contentRowTitle">JavaScript:</div>
+		<br><br>
+		<a href="../seersucked" target="_blank"><block>Seersucker</block></a>
+		<a href="./randomlines" target="_blank"><block>Random Lines</block></a>
+		<a href="./julia" target="_blank"><block>Julia Set Viewer</block></a>
+	</div>
+	<div class="contentRow">
+		<br>
+		<div class="contentRowTitle">Web Development:</div>
+		<br><br>
+		<a target="_blank"><block>UpWork Profile</block></a>
+		<a href="http://www.johnmartinweed.wordpress.com" target="_blank"><block>Wordpress Example</block></a>
+		<a href="http://weedjm.wixsite.com/jmwixexample" target="_blank"><block>Wix Example</block></a>
+		<br><br>
+	</div>
 </main>
+	<a href=https://commons.wikimedia.org/wiki/File:Mandelbrot_set_image.png><p>Image License: Binette228 / CC BY-SA (https://creativecommons.org/licenses/by-sa/3.0)</p></a>
 </body>
 </html>
