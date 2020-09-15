@@ -153,6 +153,8 @@ function mov()
 		else
 		{
 			renderGalaxy();
+			renderSelectionArrow(selectedI);
+			renderSelectionArrow(targetI);
 			testLine = tempLine;
 			tempLine.render();
 		}
@@ -181,7 +183,8 @@ function down()
 function up()
 {
 	mousedown = false;
-	constellation.push(testLine)
+	constellation.push(testLine);
+	mov();
 }
 
 function kdown()
