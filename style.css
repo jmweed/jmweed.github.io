@@ -3,148 +3,15 @@ body {
 	padding:0;
 }
 
-.topMenu {
-	top: 0;
-	align-content: center;
-	background-color: white;
-	margin: 0 auto;
-	text-align: center;
-	padding-top: 20px;
-	padding-bottom: 20px;
-
+img	{
+	margin-left: auto;
+	margin-right: auto;
+	max-width: 100%;
+	display: block;
+	max-height: 50%;
 }
 
-.topMenu lk {
-	color: black;
-	text-align: center;
-	padding: 20px 20px;
-	padding-top: 20px;
-	font-family: "lucida";
-	font-size: 40px;
-	text-decoration: bold;
-	top: 50%;
-	left: 50%;
-	cursor: pointer;
-}
-
-.topMenu current {
-	color: white;
-	text-align: center;
-	padding: 20px 20px;
-	padding-top: 20px;
-	font-family: "lucida";
-	font-size: 40px;
-	text-decoration: bold;
-	top: 50%;
-	left: 50%;
-	cursor: pointer;
-	background-color: black;
-}
-
-
-.topMenu lk:hover {
-	color: white;
-	background-color: black;
-	font-family: "lucida";
-	font-size: 40px;
-}
-
-a {
-	color: none;
-	text-decoration: none;
-}
-
-.content {
-}
-
-.contentRow {
-	padding: 40px;
-}
-
-.contentRow block{
-	color: black;
-	padding: 30px 30px;
-	padding-top: 30px;
-	margin: 20px 20px 20px 20px;
-	font-family: "lucida";
-	font-size: 40px;
-	cursor: pointer;
-	background-color: white;
-}
-
-.contentRow block:hover{
-	color: white;
-	text-align: center;
-	font-family: "lucida";
-	font-size: 40px;
-	top: 50%;
-	left: 50%;
-	cursor: pointer;
-	background-color: black;
-}
-
-.contentRowTitle	{
-	color: white;
-	padding: 10px 10px;
-	padding-top: 10px;
-	margin: 20px 20px 20px 20px;
-	font-family: "lucida";
-	font-size: 40px;
-	text-decoration: bold;
-	cursor: default;
-}
-
-p 	{
-	text-align: center;
-	font-family: "lucida"
-	background-color: white;
-}
-
-.impavidus	{
-	background-image: linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)); 
-	background-position: 80%, center;
-	background-size: cover;
-	height: 100%;
-	font-family: "lucida";
-	font-size: 20px;
-	text-shadow: 2px 2px 4px #000000;
-}
-
-.impavidusTextone	{
-	text-align: center;
-	top: 50%;
-	left: 20%;
-	transform: translate(-50%, -50%);
-	position: absolute;
-	color: white;
-}
-
-.impavidusTexttwo	{
-	text-align: center;
-	top: 50%;
-	left: 50%;
-	transform: translate(-50%, -50%);
-	position: relative;
-	color: white;
-	padding: 0px;
-}
-
-.impavidus lk {
-	color: white;
-	text-align: center;
-	padding: 20px 20px;
-	padding-top: 20px;
-	font-family: "lucida";
-	font-size: 30px;
-	text-decoration: bold;
-	cursor: pointer;
-	background-color: black;
-}
-
-.impavidus lk:hover {
-	color: black;
-	background-color: white;
-	font-family: "lucida";
-	font-size: 30px;
-	text-shadow: none;
+p {
+	font-family: 'lucida'
+	font-size: 24px
 }
